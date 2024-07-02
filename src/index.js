@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import { App } from './App';
+import { Handle } from './Handle';
 import reportWebVitals from './reportWebVitals';
+import { Routered } from './Routered';
+import { UseEffect } from './UseEffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Handle/> */}
+    {/* <Routered /> */}
+    <UseEffect/>
   </React.StrictMode>
 );
 
